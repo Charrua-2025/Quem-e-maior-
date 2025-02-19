@@ -1,0 +1,35 @@
+/* Eliminar cualquier borde del toggle button (estado normal y cuando se presiona) */
+.navbar-toggler {
+  background-color:  #ffc107;
+  border: none !important; /* Elimina el borde negro por defecto */
+}
+
+/* Eliminar el borde y el color cuando está expandido */
+.navbar-toggler.collapsed {
+  border:  #105b06  !important; /* Elimina el borde */
+}
+
+/* Cambiar el borde y color cuando está expandido */
+.navbar-toggler:not(.collapsed) {
+  border: 2px solid #105b06 !important; /* Borde verde cuando está expandido */
+}
+
+/* Cambiar el color del icono del toggle cuando está expandido */
+.navbar-toggler-icon {
+  background-color: none !important; /* Color del icono cuando está expandido */
+}
+
+/* Cambiar el color del icono del toggle cuando está colapsado */
+.navbar-toggler.collapsed .navbar-toggler-icon {
+  background-color: none !important; /* Color del icono cuando está colapsado */
+}
+
+/* Eliminar el borde cuando el toggle button tiene el foco (cuando se presiona) */
+.navbar-toggler:focus {
+  outline: none !important; /* Eliminar el contorno (foco) */
+  box-shadow: none !important; /* Eliminar cualquier sombra */
+  border: 2px solid #105b06 !important;
+}
+.nav-link{
+  color:#105b06;
+}

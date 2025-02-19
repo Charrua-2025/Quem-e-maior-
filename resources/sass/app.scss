@@ -1,0 +1,19 @@
+// 1. Importar las variables de Bootstrap antes de todo
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+// 2. Sobrescribir las variables de Bootstrap (antes de importar Bootstrap)
+
+
+
+// 3. Importar el resto de los estilos de Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// 4. Agregar tus propios estilos personalizados si es necesario
+body {
+    background-color: #f4f4f4;
+}
+
+
+
+
